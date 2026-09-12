@@ -3,3 +3,5 @@ class Gestion :
     def __init__( self,nom,age):
         self.mom=nom
         self.age=age
+    def afficher():
+        print("je suis un etudiant")
