@@ -8,5 +8,5 @@ class Gestion :
 def ajouter ():
     nom= input("donner le nom de l'etudiant")
     age=input("donner l'age de l'age")
-    e=gestion(nom,age)
+    e=Gestion(nom,age)
     return e
