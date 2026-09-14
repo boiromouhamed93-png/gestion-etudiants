@@ -23,8 +23,12 @@ def supprimer(liste):
     n_sup=input("nom de l'etudiant a supprimer")
     for i in range(len(liste)):
         if n_sup==liste[i].nom:
-            print('suppression')
-            del liste[i]
+            print('menu de suppression \n  a pour le nom \nb pour l age')
+            choix=input("faites votre choix")
+            if choix=='a':
+                del liste[i].nom
+            else:
+                del liste[i].age    
             return
     print("suppression impossible")
 liste=[]
